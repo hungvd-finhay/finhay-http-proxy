@@ -1,0 +1,30 @@
+{
+  "name": "finhay-http-proxy",
+  "version": "1.0.0",
+  "description": "HTTP proxy MCP server for Finhay — forward requests with custom headers to allowed domains",
+  "type": "module",
+  "bin": {
+    "finhay-http-proxy": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "proxy",
+    "http-proxy",
+    "modelcontextprotocol",
+    "claude",
+    "finhay"
+  ],
+  "files": [
+    "index.js"
+  ]
+}
