@@ -1,10 +1,10 @@
 {
   "name": "finhay-http-proxy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "HTTP proxy MCP server for Finhay — forward requests with custom headers to allowed domains",
   "type": "module",
   "bin": {
-    "finhay-http-proxy": "index.js"
+    "finhay-http-proxy": "./index.js"
   },
   "scripts": {
     "start": "node index.js"
