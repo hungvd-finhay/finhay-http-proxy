@@ -1,6 +1,6 @@
 {
   "name": "finhay-http-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HTTP proxy MCP server for Finhay — forward requests with custom headers to allowed domains",
   "type": "module",
   "bin": {
@@ -25,6 +25,7 @@
     "finhay"
   ],
   "files": [
-    "index.js"
+    "index.js",
+    "README.md"
   ]
 }
